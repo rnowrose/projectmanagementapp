@@ -1,0 +1,56 @@
+# ---- Python / FastAPI ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+*.pot
+*.pyc
+*.sqlite3
+.env
+.venv/
+venv/
+ENV/
+env/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+
+# ---- Uvicorn / FastAPI logs ----
+*.log
+
+# ---- VS Code / PyCharm ----
+.vscode/
+.idea/
+
+# ---- Node / Vue ----
+node_modules/
+dist/
+build/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---- Vue build artifacts ----
+*.cache
+*.tsbuildinfo
+
+# ---- Environment files ----
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
