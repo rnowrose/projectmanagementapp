@@ -1,0 +1,66 @@
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "admin-theme";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+  /* Primary Colors - Blue Spectrum */
+  --color-primary: #456CDD;
+  --color-primary-focus: #3A5BC7;
+  --color-primary-content: #FFFFFF;
+  
+  /* Secondary Colors - Pink/Magenta */
+  --color-secondary: #FF6AA6;
+  --color-secondary-focus: #E85990;
+  --color-secondary-content: #FFFFFF;
+  
+  /* Accent Colors - Purple/Violet */
+  --color-accent: #8B6AFF;
+  --color-accent-focus: #7456E8;
+  --color-accent-content: #FFFFFF;
+  
+  /* Neutral Colors - Cool Grays */
+  --color-neutral: #3D4E6C;
+  --color-neutral-focus: #2C3A52;
+  --color-neutral-content: #FFFFFF;
+  
+  /* Base/Background Colors - Light Blues */
+  --color-base-100: #c5d9ff;
+  --color-base-200: #87a1ff;
+  --color-base-300: #6786fb;
+  --color-base-content: #1A2537;
+  
+  /* Additional Palette Colors */
+  --color-info: #6B9FFF;
+  --color-success: #4ADE80;
+  --color-warning: #FFA94D;
+  --color-error: #FF6B6B;
+  
+  /* Custom Extended Palette */
+  --blue-lightest: #F5F9FF;
+  --blue-lighter: #E8F0FF;
+  --blue-light: #C5D9FF;
+  --blue: #456CDD;
+  --blue-dark: #3A5BC7;
+  --blue-darker: #2F4AA1;
+  
+  --purple-light: #B89FFF;
+  --purple: #8B6AFF;
+  --purple-dark: #7456E8;
+  
+  --pink-light: #FFB3D0;
+  --pink: #FF6AA6;
+  --pink-dark: #E85990;
+  
+  --teal: #4DD9D9;
+  --teal-dark: #3BB8B8;
+  
+  --orange: #FFA94D;
+  --orange-dark: #E89440;
+}
+
+/* Optional: body background */
+body {
+  background-color: var(--color-base-100);
+}
