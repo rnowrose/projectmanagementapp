@@ -54,3 +54,7 @@ yarn-error.log*
 # ---- OS junk ----
 .DS_Store
 Thumbs.db
+
+docker-compose.yml
+docker-compose.prod.yml
+Dockerfile
